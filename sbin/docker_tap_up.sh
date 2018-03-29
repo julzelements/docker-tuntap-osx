@@ -8,8 +8,8 @@ localTapInterface=tap1
 hostTapInterface=eth1
 
 # Local and host gateway addresses
-localGateway='10.0.75.1/24'
-hostGateway='10.0.75.2'
+localGateway='172.0.75.1/24'
+hostGateway='172.0.75.2'
 
 # Startup local and host tuntap interfaces
 sudo ifconfig $localTapInterface $localGateway up
